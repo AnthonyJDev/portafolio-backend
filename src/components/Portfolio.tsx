@@ -151,7 +151,7 @@ function Home() {
       <section className="developer-intro">
         <p className="code-comment">// Perfil profesional</p>
         <h1>Backend Java Developer</h1>
-        <p>Desarrollo soluciones backend con Java y Spring Boot, conectando APIs, bases de datos y servicios cloud con código organizado y mantenible. Busco mi primera oportunidad para aportar, aprender y crecer dentro de un equipo de tecnología.</p>
+        <p>Desarrollo soluciones backend con Spring Boot y NestJs, conectando APIs, bases de datos y servicios cloud con código organizado y mantenible. Busco mi primera oportunidad para aportar, aprender y crecer dentro de un equipo de tecnología.</p>
         <div className="social-actions">
           <a className="social-button social-button--github" href="https://github.com/Jaydnnx" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /> GitHub</a>
           <a className="social-button social-button--linkedin" href="https://www.linkedin.com/in/anthony-jordan-cabrejo-barrientos/" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /> LinkedIn</a>
@@ -179,7 +179,7 @@ function Profile() {
         <span>EXPERIENCIA PRÁCTICA</span>
         <h2>Backend Java Developer</h2>
         <p className="profile-highlight">En búsqueda de mi primera oportunidad profesional.</p>
-        <p>Desarrollo proyectos personales orientados a fortalecer mis habilidades en desarrollo de software, aplicando Java, Spring Boot, React, bases de datos, servicios en la nube y buenas prácticas de programación y arquitectura.</p>
+        <p>Desarrollo proyectos personales orientados a fortalecer mis habilidades en desarrollo de software, aplicando Spring Boot, NestJS, React, bases de datos, servicios en la nube y buenas prácticas de programación y arquitectura.</p>
       </section>
       <section className="profile-card profile-card--interests">
         <span>INTERESES</span>
@@ -336,7 +336,7 @@ export default function Portfolio() {
       <button className="mobile-menu" onClick={() => setSidebarOpen((value) => !value)} aria-label="Abrir explorador"><SvgIcon name="menu" size={18} /></button>
       <div className="app-mark"><span>&lt;</span><span>/&gt;</span></div>
       <nav className="menu-items" aria-label="Menú de aplicación"><span>Archivo</span><span>Editar</span><span>Ver</span><span>Ejecutar</span><span>Terminal</span></nav>
-      <div className="window-title">Anthony Cabrejo - Portafolio</div>
+      <div className="window-title">AnthonyDev - Portafolio</div>
       <div className="window-controls" aria-hidden="true"><i /><i className="square" /><i className="window-close">×</i></div>
     </header>
     <div className="workspace">
