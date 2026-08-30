@@ -83,7 +83,7 @@ const featuredProject = {
   description: 'Proyecto personal reservado como próximo caso de estudio. La arquitectura, las funcionalidades y las tecnologías se publicarán cuando estén definidas.',
   technologies: [] as string[],
   features: [] as string[],
-  githubUrl: 'https://github.com/Jaydnnx',
+  githubUrl: 'https://github.com/AnthonyJDev',
 };
 
 function FileIcon({ kind }: { kind: FileKind }) {
@@ -140,7 +140,7 @@ function Home() {
     <header className="document-heading"><span className="document-index"></span><div><JavaHeading returnType="void" method="main" modifier="static" parameters={<><span className="syntax-blue">String[]</span>{' '}<span className="syntax-yellow">args</span></>} /></div></header>
     <div className="java-function-body"><div className="home-layout">
       <section className="developer-card">
-        <div className="developer-avatar"><img src="https://github.com/Jaydnnx.png?size=420" alt="Anthony Jordan Cabrejo Barrientos" /></div>
+        <div className="developer-avatar"><img src="https://github.com/AnthonyJDev.png?size=420" alt="Anthony Jordan Cabrejo Barrientos" /></div>
         <pre className="developer-code" aria-label="Información de Anthony en formato Java"><code><span className="syntax-blue">Developer</span> <span className="syntax-yellow">desarrollador</span> = <span className="syntax-blue">Developer</span>.<span className="syntax-yellow">builder</span>()
 {`\n`}    .<span className="syntax-yellow">nombre</span>(<span className="syntax-orange">"Anthony Jordan Cabrejo Barrientos"</span>)
 {`\n`}    .<span className="syntax-yellow">titulo</span>(<span className="syntax-orange">"Backend Java Developer"</span>)
@@ -153,7 +153,7 @@ function Home() {
         <h1>Backend Java Developer</h1>
         <p>Desarrollo soluciones backend con Spring Boot y NestJs, conectando APIs, bases de datos y servicios cloud con código organizado y mantenible. Busco mi primera oportunidad para aportar, aprender y crecer dentro de un equipo de tecnología.</p>
         <div className="social-actions">
-          <a className="social-button social-button--github" href="https://github.com/Jaydnnx" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /> GitHub</a>
+          <a className="social-button social-button--github" href="https://github.com/AnthonyJDev" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /> GitHub</a>
           <a className="social-button social-button--linkedin" href="https://www.linkedin.com/in/anthony-jordan-cabrejo-barrientos/" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /> LinkedIn</a>
         </div>
       </section>
@@ -272,7 +272,7 @@ function Contact() {
       <section className="direct-contact">
         <p>También puedes contactarme directamente por:</p>
         <a href="mailto:anthony4lx@gmail.com"><SvgIcon name="mail" size={16} /><span>anthony4lx@gmail.com</span></a>
-        <a href="https://github.com/Jaydnnx" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /><span>github.com/Jaydnnx</span></a>
+        <a href="https://github.com/AnthonyJDev" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /><span>github.com/Jaydnnx</span></a>
         <a href="https://www.linkedin.com/in/anthony-jordan-cabrejo-barrientos/" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /><span>linkedin.com/in/anthony-jordan-cabrejo-barrientos</span></a>
       </section>
     </div>
