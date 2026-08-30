@@ -151,7 +151,7 @@ function Home() {
       <section className="developer-intro">
         <p className="code-comment">// Perfil profesional</p>
         <h1>Backend Java Developer</h1>
-        <p>Desarrollo soluciones backend con Spring Boot y NestJs, conectando APIs, bases de datos y servicios cloud con código organizado y mantenible. Busco mi primera oportunidad para aportar, aprender y crecer dentro de un equipo de tecnología.</p>
+        <p>Desarrollo soluciones backend con Spring Boot, conectando APIs, bases de datos y servicios cloud con código organizado y mantenible. Busco mi primera oportunidad para aportar, aprender y crecer dentro de un equipo de tecnología.</p>
         <div className="social-actions">
           <a className="social-button social-button--github" href="https://github.com/AnthonyJDev" target="_blank" rel="noreferrer"><FaGithub aria-hidden="true" /> GitHub</a>
           <a className="social-button social-button--linkedin" href="https://www.linkedin.com/in/anthony-jordan-cabrejo-barrientos/" target="_blank" rel="noreferrer"><FaLinkedin aria-hidden="true" /> LinkedIn</a>
