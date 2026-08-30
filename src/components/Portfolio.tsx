@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type CSSProperties, type ReactNode, type S
 import type { IconType } from 'react-icons';
 import { DiMsqlServer } from 'react-icons/di';
 import { FaAws, FaCode, FaDatabase, FaGithub, FaJava, FaLanguage, FaLinkedin } from 'react-icons/fa6';
-import { SiClaude, SiCss, SiDocker, SiDotnet, SiGit, SiGithub, SiHibernate, SiHtml5, SiIntellijidea, SiMongodb, SiMysql, SiPostgresql, SiPostman, SiPython, SiReact, SiScrumalliance, SiSpringboot, SiSwagger, SiTailwindcss, SiVercel, SiVite } from 'react-icons/si';
+import { SiAstro, SiClaude, SiCss, SiDocker, SiDotnet, SiGit, SiGithub, SiHibernate, SiHtml5, SiIntellijidea, SiMongodb, SiMysql, SiNestjs, SiPostgresql, SiPostman, SiPython, SiReact, SiScrumalliance, SiSpringboot, SiSwagger, SiTailwindcss, SiTypescript, SiVercel, SiVite } from 'react-icons/si';
 import { TbApi, TbBrandCSharp, TbCode, TbDeviceMobileCode, TbGitBranch } from 'react-icons/tb';
 import { VscAzure, VscVscode } from 'react-icons/vsc';
 import cvUrl from '../portafolio/cv_cabrejo_anthony.pdf?url';
@@ -26,11 +26,14 @@ const skillGroups: SkillGroup[] = [
   { title: 'Backend', accent: 'orange', items: [
     { label: 'Java', icon: FaJava, color: '#e76f00' },
     { label: 'Spring Boot', icon: SiSpringboot, color: '#6db33f' },
+    { label: 'NestJS', icon: SiNestjs, color: '#e0234e' },
     { label: 'APIs REST', icon: TbApi, color: '#59b4d9' },
     { label: 'JPA / Hibernate', icon: SiHibernate, color: '#bcae79' },
   ] },
   { title: 'Frontend', accent: 'pink', items: [
     { label: 'React', icon: SiReact, color: '#61dafb' },
+    { label: 'TypeScript', icon: SiTypescript, color: '#3178c6' },
+    { label: 'Astro', icon: SiAstro, color: '#ff5d01' },
     { label: 'HTML5', icon: SiHtml5, color: '#e34f26' },
     { label: 'CSS3', icon: SiCss, color: '#1572b6' },
     { label: 'Tailwind CSS', icon: SiTailwindcss, color: '#06b6d4' },
